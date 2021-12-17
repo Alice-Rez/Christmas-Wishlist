@@ -31,6 +31,7 @@ h2 {
   color: #b6253d;
   margin: 0;
   font-weight: 600;
+  font-size: 1.5rem;
 }
 
 main {
@@ -72,6 +73,8 @@ button {
   letter-spacing: 0.1em;
   box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2),
     -3px -3px 7px rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  transition: transform 300ms ease-out;
 }
 
 label {
@@ -105,4 +108,10 @@ li {
     -3px -3px 7px rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   cursor: pointer;
+  transition: transform 300ms ease-out;
+}
+
+button:hover,
+li:hover {
+  transform: scale(1.1);
 }
