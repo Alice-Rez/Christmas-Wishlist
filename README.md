@@ -1,6 +1,6 @@
 # Christmas Wishlist
 
-Basic React exercise app with small Christmas twist :) The
+Basic React training app with small Christmas twist :) The
 
 ## Prerequisits
 
