@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alice&family=Montserrat&family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alice&family=Montserrat:wght@400;600&family=Sacramento&display=swap");
 
 body {
   background-image: url("https://images.creativemarket.com/0.1.0/ps/3572000/1360/906/m1/fpnw/wm0/lbzofoayong6c1ffqbalg7sr8tmbkrfybruolrutzi8df90m2a8lhvslw1wogxzb-.jpg?1510605165&s=79ccfcad165e657cbba603a2aed5a542");
@@ -30,6 +30,7 @@ h2 {
   padding: 1em 0.5em;
   color: #b6253d;
   margin: 0;
+  font-weight: 600;
 }
 
 main {
@@ -63,7 +64,7 @@ button {
   background-color: #79a250;
   color: #f2e4cb;
   padding: 0.75em 1.5em;
-  font-style: bold;
+  font-weight: 600;
   font-size: 1rem;
   border-radius: 10px;
   font-family: "Montserrat", sans-serif;
@@ -92,6 +93,7 @@ input {
 ul {
   width: 90%;
   max-width: 600px;
+  padding-left: 0;
 }
 
 li {
