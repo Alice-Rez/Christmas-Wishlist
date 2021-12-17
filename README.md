@@ -20,4 +20,4 @@ Basic React training app with small Christmas twist :) The
 
 </br>
 
-<img align="center" src="./Screenshot.png" width="100%">
+<img align="center" src="./Screenshot.png" width="80%">
