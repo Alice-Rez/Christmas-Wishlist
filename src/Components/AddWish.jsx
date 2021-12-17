@@ -21,16 +21,20 @@ export default function AddWish(props) {
       <h2>Add your wish</h2>
       <form>
         <label htmlFor="newWish">What do you wish for?</label>
-        <input
-          type="text"
-          name="newWish"
-          id="newWish"
-          onInput={getWish}
-          value={newWish || ""}
-        />
-        <button className="submit" onClick={saveNewWish}>
-          Save
-        </button>
+        <div>
+          <input
+            type="text"
+            name="newWish"
+            id="newWish"
+            onInput={getWish}
+            value={newWish || ""}
+          />
+        </div>
+        <div>
+          <button className="submit" onClick={saveNewWish}>
+            Save
+          </button>
+        </div>
       </form>
     </section>
   );

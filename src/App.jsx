@@ -7,19 +7,19 @@ import startWishes from "./data/preliminaryWishes";
 function App() {
   const [wishes, setWishes] = useState([]);
 
-  useEffect(() => {
-    setWishes(startWishes);
-  }, []);
-
   // useEffect(() => {
-  //   if (localStorage.getItem("wishes")) {
-  //     setWishes(JSON.parse(localStorage.getItem("wishes")));
-  //   }
+  //   setWishes(startWishes);
   // }, []);
 
-  // useEffect(() => {
-  //   localStorage.setItem("tasks", JSON.stringify(wishes));
-  // }, [wishes]);
+  useEffect(() => {
+    if (localStorage.getItem("wishes")) {
+      setWishes(JSON.parse(localStorage.getItem("wishes")));
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem("wishes", JSON.stringify(wishes));
+  }, [wishes]);
 
   const saveWish = (content) => {
     let id = 0;
