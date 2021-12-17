@@ -1,22 +1,21 @@
 # Christmas Wishlist
 
-Basic React training app with small Christmas twist :) The
+Basic React training app with small Christmas twist :) The app use local storage, so the wishlist is persistent :)
 
-## Prerequisits
+Try a [live version](https://alice-rez.github.io/Christmas-Wishlist/) or Setup locally.
 
-- Nodejs (if you do not have it, [download](https://nodejs.org/en/download/))
+## Local setup:
 
-## Setup
-
-1. Clone repository
-2. ```
+1. Prerequisits: Nodejs (if you do not have it, [download](https://nodejs.org/en/download/))
+2. Clone repository
+3. ```
    cd <your-repository-name>
    npm install
    ```
-3. ```
+4. ```
    npm start
    ```
-4. Enjoy
+5. Enjoy
 
 </br>
 
